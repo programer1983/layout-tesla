@@ -16,6 +16,11 @@ body {
 
 .header {
   height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.30);
 }
 
 .container {
@@ -80,4 +85,39 @@ body {
 
 .header-content__btn:hover {
   background: #770302;
+}
+
+.slider__item.slick-slide {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider .slick-dots button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0B0B0B;
+  border: none;
+  padding: 0;
+  font-size: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider .slick-dots .slick-active button {
+  background-color: #fff;
+}
+
+.slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider .slick-dots {
+  margin: -45px auto 0;
+  position: relative;
+  z-index: 6;
+  max-width: 1200px;
 }
