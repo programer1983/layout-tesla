@@ -75,7 +75,7 @@ body {
   margin-bottom: 25px;
 }
 
-.header-content__btn {
+.button {
   display: inline-block;
   border: 1px solid #FFF;
   background: rgba(255, 255, 255, 0.15);
@@ -83,7 +83,7 @@ body {
   transition: all .5s;
 }
 
-.header-content__btn:hover {
+.button:hover {
   background: #770302;
 }
 
@@ -241,6 +241,7 @@ body {
 .design-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .design-row__item {
@@ -260,4 +261,34 @@ body {
   padding-top: 25px;
 }
 
+
+/* === FOOTER ============================================================================= */
+
+.footer {
+  background-color: #690102;
+  padding: 83px 0 20px 0;
+}
+
+.footer-btn {
+  text-align: center;
+  margin-bottom: 83px;
+}
+
+
+.footer-copy {
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-copy li {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+}
+
+.footer-copy li + li::before {
+  content: "|";
+  position: absolute;
+  left: -5px;
+}
 
