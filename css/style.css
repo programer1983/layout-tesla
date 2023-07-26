@@ -228,4 +228,36 @@ body {
 .advantages__img {
 }
 
+/* ======== DESIGN ==================================================================== */
+
+.design {
+
+}
+
+.design__images {
+  margin-bottom: 100px;
+}
+
+.design-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-row__item {
+  max-width: 570px;
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-row__item-num {
+  color:  #B70021;
+}
+
+.design-row__item-text {
+  max-width: 450px;
+  padding-top: 25px;
+}
+
 
