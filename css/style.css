@@ -193,7 +193,8 @@ body {
   margin: -45px auto 0;
   position: relative;
   z-index: 6;
-  max-width: 1200px;
+  max-width: 1230px;
+  padding: 0 15px;
 }
 
 
@@ -367,5 +368,35 @@ body {
   content: "|";
   position: absolute;
   left: -5px;
+}
+
+/* ======= MEDIA ======================================================================== */
+
+@media (max-width: 410px){
+  .logp img {
+    width: 200px;
+  }
+
+  .header-content__title {
+    font-size: 70px;
+    line-height: 85px;
+    margin-top: 20px;
+  }
+
+  .menu__list a {
+    font-size: 30px;
+    line-height: 44px;
+    padding: 10px 10px 7px 0px;
+    display: block;
+    min-width: 100%;
+  }
+
+  .menu__list ul {
+    width: 100%;
+  }
+
+  .header-content .button {
+    padding: 30px 60px;
+  }
 }
 
