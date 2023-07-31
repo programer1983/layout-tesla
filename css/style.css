@@ -376,6 +376,34 @@ body {
   .advantages__text {
    padding-left: 20px;
   }
+
+  .design__images, 
+  .design-row {
+    margin-bottom: 50px;
+  }
+
+  .design__images img {
+    width: 100%;
+  }
+
+  .design-row__item {
+      max-width: 100%;
+  }
+
+  .design-row__item {
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+
+  .design-row__item-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1020px){
+  .design-row {
+    display: block;
+  }
 }
 
 @media (max-width: 930px){
@@ -420,8 +448,19 @@ body {
   .advantages__img img {
     width: 100%;
   }
+
+  .design-row__item-text {
+    font-size: 20px;
+  }
 }
 
+
+@media (max-width: 440px){
+  .header-content__title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+}
 
 @media (max-width: 410px){
   .logp img {
